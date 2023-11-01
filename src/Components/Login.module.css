@@ -1,0 +1,120 @@
+
+  .container {
+    display: flex;
+    width: 768px;
+    max-width: 100%;
+    min-height: 500px;
+    /* border: 2px solid black; */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .sidebar {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    max-width: 300px;
+  }
+  .sidebar h2{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .sidebar p{
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+  }
+  .sidebar button{
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    color: #eee;
+  }
+.sidebar button:hover{
+    transform: scale(0.95);
+}
+  
+  .formcontainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formcontainer h3{
+    font-weight: bold;
+  }
+  .form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+  }
+  .form input{
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 15px;
+    /* padding-left: 55px; */
+    margin: 8px 0;
+    width: 300px;
+    height: 35px;
+    outline: none;
+  }
+  .form button{
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    background-color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    max-width: 150px;
+    margin-left: 90px;
+    color: #eee;
+  }
+  .form button:hover{
+    transform: scale(0.95);
+  }
+  .form button:disabled{
+    transform: scale(1); 
+  } 
+  .icon{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+  }
+  .formcontainer p{
+    font-size: smaller;
+    color: #333;
+  }
+  .formgroup{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-left: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    height: 45px;
+    margin-bottom: 8px;
+  }
+ 
